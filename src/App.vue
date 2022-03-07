@@ -6,7 +6,7 @@
 		<header id="header">
 		
 			<!-- logo start -->
-			<h1 class="KEPRI-logo"><a href="#"><img :src="logo"></a><span>전력SW연구개발플랫폼</span></h1>
+			<h1 class="KEPRI-logo"><a href="#"><img alt="Vue logo" src="./assets/logo.png"></a><span>전력SW연구개발플랫폼</span></h1>
 			<!-- logo end -->
 		
 			<!-- top menu start-->
@@ -93,7 +93,7 @@
 					<!-- title start -->
 					<div class="content-title-wrap">
 						<h1 class="contentMainTitle"><strong>컨텐츠</strong> 조회</h1>
-						<p class="contentTitleRoute"><a href="#"></a> &gt; <a href="#">컨텐츠 조회</a></p>
+						<p class="contentTitleRoute"><a href="#"><img alt="ico_home" src="./assets/ico_home.png"></a> &gt; <a href="#">컨텐츠 조회</a></p>
 					</div>
 					<!-- title wnd -->
 					
@@ -119,13 +119,11 @@
 	</div>
 </template>
 <script>
-import logo from '@/images/kepri_logo.png'
-
 export default {
  name: "App",
  data() {
 	return {
-		logo: logo,
+		
 	}
  },
 };

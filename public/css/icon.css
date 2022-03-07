@@ -1,12 +1,12 @@
 @CHARSET "UTF-8";
 
 /* 타이틀 */
-.titleIcon1 {background: require("@/images/ico1_cont.png") no-repeat;font-size: 19px;font-weight: 800;color: #333;line-height: 1;display: inline-block;padding: 0 0 10px 28px;}
-.titleIcon2 {background: require("@/images/ico2_cont.png") no-repeat;font-size: 17px;font-weight: 600;color: #505050;line-height: 1;display: inline-block;padding: 0 0 10px 28px;background-position: 14px 2px;}
-.titleIcon3 {background: require("@/images/ico3_cont.png") no-repeat;font-size: 15px;font-weight: 500;color: #505050;line-height: 1;display: inline-block;padding: 0 0 8px 32px;background-position: 18px 6px;}
-.titleIcon4 {background: require("@/images/ico4_cont.png") no-repeat;font-size: 14px;font-weight: 500;color: #7a7a7a;line-height: 1;display: inline-block;padding: 0 0 5px 37px;background-position: 25px 6px;letter-spacing: -1px;}
+.titleIcon1 {background: url("../img/ico1_cont.png") no-repeat;font-size: 19px;font-weight: 800;color: #333;line-height: 1;display: inline-block;padding: 0 0 10px 28px;}
+.titleIcon2 {background: url("../img/ico2_cont.png") no-repeat;font-size: 17px;font-weight: 600;color: #505050;line-height: 1;display: inline-block;padding: 0 0 10px 28px;background-position: 14px 2px;}
+.titleIcon3 {background: url("../img/ico3_cont.png") no-repeat;font-size: 15px;font-weight: 500;color: #505050;line-height: 1;display: inline-block;padding: 0 0 8px 32px;background-position: 18px 6px;}
+.titleIcon4 {background: url("../img/ico4_cont.png") no-repeat;font-size: 14px;font-weight: 500;color: #7a7a7a;line-height: 1;display: inline-block;padding: 0 0 5px 37px;background-position: 25px 6px;letter-spacing: -1px;}
 
-.fileIco {background: require("@/images/ico_attch.png.png") no-repeat;width: 22px;height: 22px;display: inline-block;margin-right: 3px;font-size: 0;text-indent: -9999px;overflow: hidden;}
+.fileIco {background: url("../img/ico_attch.png.png") no-repeat;width: 22px;height: 22px;display: inline-block;margin-right: 3px;font-size: 0;text-indent: -9999px;overflow: hidden;}
 
 /* left subMenu Icon */
 .subMenuOpen {overflow: hidden;width: 25px;}

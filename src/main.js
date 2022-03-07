@@ -6,14 +6,13 @@ import VueRouter from 'vue-router'
 
 //import bootstrap
 import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 
 
 //import vue components
 import App from './App.vue'
 import Home from '@/views/Home.vue'
-import readBoard from '@/views/readBoard.vue'
+import createBoard from '@/views/createBoard.vue'
 
 
 
@@ -35,8 +34,8 @@ const router = new VueRouter({
       component:Home
     },
     {
-      path:'/readBoard',
-      component:readBoard
+      path:'/createBoard',
+      component:createBoard
     }
   ]
 });

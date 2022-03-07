@@ -143,7 +143,7 @@
 /* form */
 input[type="text"], input[type="password"]{height:44px; padding: 0 10px; }
 input[disabled]{color: #555 !important; background-color: #eee !important;}
-select{color:#777; min-width: 75px; height: 44px; padding:0px 50px 0px 10px; border: 1px solid #ccc; border-radius: 2px; background:#fff require("@/images/ico_sel.png") no-repeat; background-position: center right; -webkit-appearance: listbox; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;}
+select{color:#777; min-width: 75px; height: 44px; padding:0px 50px 0px 10px; border: 1px solid #ccc; border-radius: 2px; background:#fff url('../img/ico_sel.png') no-repeat; background-position: center right; -webkit-appearance: listbox; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;}
 select::-ms-expand{display: none;}
 
 /* form */
@@ -156,7 +156,7 @@ select::-ms-expand{display: none;}
 .checkbox label::after { display: inline-block; position: absolute; left: 0; top: 0; font-size: 14px; color: #1e75d6; width: 20px; height: 20px; margin-left: -20px; text-align: center;}
 .checkbox input[type="checkbox"] {width:20px; height:20px; opacity: 0; z-index: 1; margin-top:0;}
 .checkbox input[type="checkbox"]:focus + label::before {border-color:#333; outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px;}
-.checkbox input[type="checkbox"]:checked + label::after {color:#fff; line-height: 20px; content: ""; background: require("@/images/ico_com.png") no-repeat; background-position: -253px -139px;}
+.checkbox input[type="checkbox"]:checked + label::after {color:#fff; line-height: 20px; content: ""; background: url('../img/ico_com.png') no-repeat; background-position: -253px -139px;}
 .checkbox input[type="checkbox"]:checked + label::before{border-color:#2196f3; background: #fff;}
 .checkbox input[type="checkbox"]:disabled + label{color:#808487; cursor: default;}
 .checkbox input[type="checkbox"]:disabled + label::before {border-color:#d9d9d9; background-color: #ffff;  cursor: not-allowed;}

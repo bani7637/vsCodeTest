@@ -2,7 +2,7 @@
  * 파일명 : ui-grid-custom.css
  * 내  용 : ui-grid CSS customizing 
  ******************************************************************************/
-@CHARSET "UTF-8";
+
 
 .ui-grid-row:nth-child(even) .ui-grid-cell, .ui-grid-row:nth-child(odd) .ui-grid-cell {background: #fff;height: 40px;font-size: 17px;}
 .ui-grid-header-cell-wrapper {background: #fff;height: 40px;line-height: 1.6;}

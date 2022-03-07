@@ -3,10 +3,25 @@
         
         <div class="content-search-wrap">
             <h2 class="contentTitle">검색</h2>
-            <input type="text" class="form-control" placeholder="제목 및 내용검색" v-model="searchData.searchText">
-            <div class="search-btn-wrap">
-                <button v-on:click="search" class="basic-btn btn-color1">검색</button>
-            </div>
+            <ul>
+                <li class="mt30">
+                    <label class="searchTitle">ㆍ요청 :</label>
+                    <select class="size50p" v-model="searchData.searchCondition">
+                        <option value="">검색조건</option>
+                    </select>
+                </li>
+                <li class="mt30">
+                    <label class="searchTitle">ㆍ진행상태 :</label>
+                    <select class="size50p" v-model="searchData.searchUseYn">
+                        <option value="">전체</option>
+                    </select>
+                </li>
+                <li>
+                    <label class="searchTitle">ㆍ요청제목 :</label>
+                    <input type="text" class="size50p" v-model="searchData.searchKeyword">
+                </li>
+			</ul>
+            <div class="search-btn-wrap"><button type="button" class="basic-btn btn-color1" v-on:click="btnClick()">조회</button></div>
         </div>
         <div class="content-box-wrap">
             <h2 class="contentTitle">목록</h2>
@@ -33,7 +48,6 @@
                 </table>
             </div>
         </div> 
-       <button v-on:click="write" >게시글 작성</button>
     </div>
 </template>
 
@@ -50,8 +64,9 @@ export default {
         return{
             data: data,
             searchData:{
-                searchText: '',
-                searchOption:''
+                searchKeyword: '',
+                searchCondition:'',
+                searchUseYn:''
             },
             cdList:idData
         }
