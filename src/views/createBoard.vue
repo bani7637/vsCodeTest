@@ -54,7 +54,8 @@
         <!-- button -->
         <div class="content-btn-wrap">
             <button type="button" class="basic-btn btn-color1" v-on:click="fn_apply()">등록</button>
-            <button type="button" class="basic-btn btn-color2" v-on:click="fn_cancle()">취소</button>
+            <button type="button" class="basic-btn btn-color2" v-on:click="fn_cancel()">취소</button>
+            <button type="button" class="basic-btn btn-color1" v-on:click="fn_list()">목록</button>
         </div>
         <!-- //button -->
         </div>
@@ -75,7 +76,23 @@ export default {
         }
     },
     methods: {
-       
+       write : function(){
+            this.$router.push({
+                path: '/createBoard'
+            })
+        },
+        //등록이벤트
+        fn_apply : function(){
+
+        },
+        //취소이벤트
+        fn_cancel : function(){
+
+        },
+        //리스트이벤트
+        fn_list : function(){
+
+        }
     },
 
 }

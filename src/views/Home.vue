@@ -25,6 +25,7 @@
         </div>
         <div class="content-box-wrap">
             <h2 class="contentTitle">목록</h2>
+            <button type="button" class="basic-btn btn-color1" v-on:click="write()">작성</button>
             <div class="content-table-wrap">
                 <table class="table text-center table-hover" cellspacing="0" width="100%">
                     <colgroup>
@@ -88,8 +89,8 @@ export default {
         },
         //검색
         search : function(){
-            if(this.searchData.searchText!=''){
-                alert(this.$data.data.findIndex(i=>i.title == this.searchData.searchText));
+            if(this.searchData.searchKeyword!=''){
+                alert(this.$data.data.findIndex(i=>i.title == this.searchData.searchKeyword));
                 //찾은 인덱스만 데이터에 넣기
                
                 //this.$data.data.length=0
