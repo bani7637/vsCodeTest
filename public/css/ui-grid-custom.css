@@ -1,0 +1,18 @@
+/*******************************************************************************
+ * 파일명 : ui-grid-custom.css
+ * 내  용 : ui-grid CSS customizing 
+ ******************************************************************************/
+@CHARSET "UTF-8";
+
+.ui-grid-row:nth-child(even) .ui-grid-cell, .ui-grid-row:nth-child(odd) .ui-grid-cell {background: #fff;height: 40px;font-size: 17px;}
+.ui-grid-header-cell-wrapper {background: #fff;height: 40px;line-height: 1.6;}
+.grid-align-center .ui-grid-cell-contents, .grid-align-left .ui-grid-cell-contents, .grid-align-right .ui-grid-cell-contents{font-size: 17px;font-weight: 100;padding-top: 5px;}
+.grid-align-center .ui-grid-cell-contents{text-align: center;line-height: 1.5;border-bottom: 1px solid #ddd;height: 40px;}
+.grid-align-left .ui-grid-cell-contents{text-align: left;}
+.grid-align-right .ui-grid-cell-contents{text-align: right;padding-right: 20px;}
+.grid-align-center .ui-grid-cell-contents .ui-grid-header-cell-label{text-align: center;padding-left: 33px;font-size: 17px;font-weight: 200;}
+
+#wrap .ui-grid-disable-selection a.ng-scope {display: block;line-height: 1.5;padding: 5px 5px 5px 15px;-ms-text-overflow:ellipsis;overflow:hidden; height:100%; font-size: 17px;border-bottom: 1px solid #ddd;}
+#wrap .ui-grid-disable-selection a.ng-scope:hover {text-decoration: underline;color: #000;}
+.ui-grid-top-panel {background-color: #fff;border-top: 3px solid #354590;}
+.ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell {background-color: #eee;}

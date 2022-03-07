@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+/* jquery-ui css수정 */
+.ui-dialog > .ui-widget-header{background: none;border: none;border-bottom: 1px solid #dfdfdf;margin: 5px 20px;}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{border-radius: 0;}
+.ui-dialog-title{height: 20px;font-size: 15px;background: require('@/images/pop_tit.png') no-repeat;background-position: 0px 3px;padding-left: 20px;}
+.ui-icon-closethick{background: require("@/images/pop_ico_close.png") no-repeat! important;width: 25px;height: 25px;}
+.ui-icon-closethick:hover{background: none;}
+.ui-draggable .ui-dialog-titlebar{padding-left: 0;}
+.ui-widget-content{margin: 5px 20px;border: 1px solid #dfdfdf}
+.ui-dialog .ui-dialog-buttonpane button{font-size: 15px;padding: 10px 25px;color: #fff;background: #4479c9;margin-right: 0;margin-top: 10px;}
+.ui-dialog .ui-dialog-buttonpane {padding: 0 ! important;margin-top: 10px;}
+
+/* content */
+.popCont .popLoSum{padding: 10px 0;background: #e7e7e7;border-radius: 3px;font-size: 15px;text-align: center;line-height: 1.6;border: 1px solid #d2d2d2;}
+.popLoMail{padding: 10px 0;font-size: 16px;}
+.popCont .popLoMail strong{background: require('@/images/pop_ico_dot.png') no-repeat;padding-left: 15px;background-position: 5px 10px;}
+.popCont hr{margin: 15px 0;padding: 0;height: 1px;background: #dfdfdf;width: 100%}
+
+/* content - button */
+.popWrap button {font-size: 15px;padding:10px 25px;}
+
+#popWrap {width:500px; margin:20px auto; border:1px solid #dfdfdf; border-radius:3px; box-shadow:2px 2px 2px 2px #f4f4f4; padding:20px;}
+
+#popWrap h1 {background:require("@/images/pop_tit.png") 0 2px no-repeat; padding:0 0 10px 20px; font-weight:600; font-size:17px; border-bottom:1px solid #dfdfdf; margin-bottom:10px;}
+
+#popWrap input[type=text] {height:40px;}
+.popCont {padding:10px 0 0 0;}
+.popSearch {background:#f4f4f4; border:1px solid #dfdfdf; border-radius:2px; padding:10px;}
+
+.popBtn-color1 {background:#4479c9; color:#fff; font-size:14px;}
+.popBtn-color1:hover {background:#2d6bc8;}
+
+.popTabCont {padding:10px 0;}
+
+.popTable-list {width:100%; }
+.popTable-list thead th {background:#7487a3; color:#fff; font-size:14px; padding:10px 0;}
+.popTable-list tbody td {background:#fff; color:#888; font-size:13px; text-align:center; padding:10px 0; border-bottom:1px solid #dfdfdf;}
+.popTable-list tbody td a {text-decoration:underline; }
+.popTable-list tbody td a:hover {color:#2766c5;}
+
+/* page */
+.pageWrap {text-align:center; vertical-align:top; margin:10px 0 20px 0; font-size:13px;}
+.pageWrap a {display:inline-block; width:30px; height:30px; border:1px solid #dfdfdf; line-height:30px;  vertical-align:top;}
+.pageWrap a:hover {background:#8a8d9d; border:0; color:#fff; line-height:32px;}
+.pageWrap .pageIco { width:30px; height:38px; font-size:0; display:inline-block; overflow:hidden;}
+.pageWrap .pageIco a {text-indent:-999px; background:require("@/images/ico_page.png") no-repeat;}
+.pageWrap .pageIco a:hover {border:1px solid #4e536b;}
+.pageWrap .first_ico a {background-position:5px 4px;}
+.pageWrap .last_ico a {background-position:5px -75px;}
+.pageWrap .next_ico a {background-position:5px -20px;}
+.pageWrap .prev_ico a {background-position:5px -45px;}

@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* common */
+.blind {overflow:hidden;  position:absolute; top:-9999em; left:-9999em; padding:0 !important; height:0; width:0; border:none !important; background:none !important; line-height:0 !important; text-indent:-9999px;}
+
+/* margin */
+.mt0{margin-top: 0px !important;}
+.mt10{margin-top: 10px !important;}
+.mt20{margin-top: 20px !important;}
+.mt30{margin-top: 30px !important;}
+.mt40{margin-top: 40px !important;}
+.mt50{margin-top: 50px !important;}
+.mt60{margin-top: 60px !important;}
+.mt70{margin-top: 70px !important;}
+.mt80{margin-top: 80px !important;}
+.mt90{margin-top: 90px !important;}
+.mt100{margin-top: 100px !important;}
+
+.mb0{margin-bottom: 0px !important;}
+.mb10{margin-bottom: 10px !important;}
+.mb20{margin-bottom: 20px !important;}
+.mb30{margin-bottom: 30px !important;}
+.mb40{margin-bottom: 40px !important;}
+.mb50{margin-bottom: 50px !important;}
+.mb60{margin-bottom: 60px !important;}
+.mb70{margin-bottom: 70px !important;}
+.mb80{margin-bottom: 80px !important;}
+.mb90{margin-bottom: 90px !important;}
+.mb100{margin-bottom: 100px !important;}
+
+.ml10{margin-left: 10px !important;}
+.ml20{margin-left: 20px !important;}
+.ml30{margin-left: 30px !important;}
+.ml40{margin-left: 40px !important;}
+.ml50{margin-left: 50px !important;}
+.ml60{margin-left: 60px !important;}
+.ml70{margin-left: 70px !important;}
+.ml80{margin-left: 80px !important;}
+.ml90{margin-left: 90px !important;}
+.ml100{margin-left: 100px !important;}
+
+.mr10{margin-right: 10px !important;}
+.mr20{margin-right: 20px !important;}
+.mr30{margin-right: 30px !important;}
+.mr40{margin-right: 40px !important;}
+.mr50{margin-right: 50px !important;}
+.mr60{margin-right: 60px !important;}
+.mr70{margin-right: 70px !important;}
+.mr80{margin-right: 80px !important;}
+.mr90{margin-right: 90px !important;}
+.mr100{margin-right: 100px !important;}
+
+/* padding */
+.pt10{padding-top: 10px !important;}
+.pt20{padding-top: 20px !important;}
+.pt30{padding-top: 30px !important;}
+.pt40{padding-top: 40px !important;}
+.pt50{padding-top: 50px !important;}
+.pt60{padding-top: 60px !important;}
+.pt70{padding-top: 70px !important;}
+.pt80{padding-top: 80px !important;}
+.pt90{padding-top: 90px !important;}
+.pt100{padding-top: 100px !important;}
+
+.pb10{padding-bottom: 10px !important;}
+.pb20{padding-bottom: 20px !important;}
+.pb30{padding-bottom: 30px !important;}
+.pb40{padding-bottom: 40px !important;}
+.pb50{padding-bottom: 50px !important;}
+.pb60{padding-bottom: 60px !important;}
+.pb70{padding-bottom: 70px !important;}
+.pb80{padding-bottom: 80px !important;}
+.pb90{padding-bottom: 90px !important;}
+.pb100{padding-bottom: 100px !important;}
+
+.pl10{padding-left: 10px !important;}
+.pl20{padding-left: 20px !important;}
+.pl30{padding-left: 30px !important;}
+.pl40{padding-left: 40px !important;}
+.pl50{padding-left: 50px !important;}
+.pl60{padding-left: 60px !important;}
+.pl70{padding-left: 70px !important;}
+.pl80{padding-left: 80px !important;}
+.pl90{padding-left: 90px !important;}
+.pl100{padding-left: 100px !important;}
+
+.pr10{padding-right: 10px !important;}
+.pr20{padding-right: 20px !important;}
+.pr30{padding-right: 30px !important;}
+.pr40{padding-right: 40px !important;}
+.pr50{padding-right: 50px !important;}
+.pr60{padding-right: 60px !important;}
+.pr70{padding-right: 70px !important;}
+.pr80{padding-right: 80px !important;}
+.pr90{padding-right: 90px !important;}
+.pr100{padding-right: 100px !important;}
+
+/* size */
+.size100{width: 100px !important;}
+.size200{width: 200px !important;}
+.size300{width: 300px !important;}
+.size400{width: 400px !important;}
+.size500{width: 500px !important;}
+.size600{width: 600px !important;}
+.size700{width: 700px !important;}
+.size800{width: 800px !important;}
+.size900{width: 900px !important;}
+.size10p{width: 10% !important;}
+.size20p{width: 20% !important;}
+.size30p{width: 30% !important;}
+.size40p{width: 40% !important;}
+.size50p{width: 50% !important;}
+.size60p{width: 60% !important;}
+.size70p{width: 70% !important;}
+.size80p{width: 80% !important;}
+.size90p{width: 90% !important;}
+.size100p{width: 100% !important;}
+
+.sizeh100{height: 100px !important;}
+.sizeh200{height: 200px !important;}
+.sizeh300{height: 300px !important;}
+.sizeh400{height: 400px !important;}
+.sizeh500{height: 500px !important;}
+.sizeh600{height: 600px !important;}
+.sizeh700{height: 700px !important;}
+.sizeh800{height: 800px !important;}
+.sizeh900{height: 900px !important;}
+.sizeh10p{height: 10% !important;}
+.sizeh20p{height: 20% !important;}
+.sizeh30p{height: 30% !important;}
+.sizeh40p{height: 40% !important;}
+.sizeh50p{height: 50% !important;}
+.sizeh60p{height: 60% !important;}
+.sizeh70p{height: 70% !important;}
+.sizeh80p{height: 80% !important;}
+.sizeh90p{height: 90% !important;}
+.sizeh100p{height: 100% !important;}
+
+/* float */
+.floatRight{float: right !important;}
+.floatLeft{float: left !important;}
+
+/* form */
+input[type="text"], input[type="password"]{height:44px; padding: 0 10px; }
+input[disabled]{color: #555 !important; background-color: #eee !important;}
+select{color:#777; min-width: 75px; height: 44px; padding:0px 50px 0px 10px; border: 1px solid #ccc; border-radius: 2px; background:#fff require("@/images/ico_sel.png") no-repeat; background-position: center right; -webkit-appearance: listbox; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;}
+select::-ms-expand{display: none;}
+
+/* form */
+.checkbox+.checkbox, .radio+.radio{margin-top:5px;}
+.checkbox {padding-left:20px; margin:0;}
+.checkbox label { position: relative; display: inline-block; line-height: 20px; height: 20px; padding-left: 0px; vertical-align: top;}
+.checkbox label.label-txt{font-size:14px; padding-left: 8px; }
+.checkbox label.checkbox-inline + .checkbox-inline{margin-left: 5px;}
+.checkbox label::before {content: ""; display: inline-block; position: absolute; left: 0; width: 20px; height: 20px; margin-left: -20px; border: 1px solid #999; border-radius: 0px; background-color: #fff;}
+.checkbox label::after { display: inline-block; position: absolute; left: 0; top: 0; font-size: 14px; color: #1e75d6; width: 20px; height: 20px; margin-left: -20px; text-align: center;}
+.checkbox input[type="checkbox"] {width:20px; height:20px; opacity: 0; z-index: 1; margin-top:0;}
+.checkbox input[type="checkbox"]:focus + label::before {border-color:#333; outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px;}
+.checkbox input[type="checkbox"]:checked + label::after {color:#fff; line-height: 20px; content: ""; background: require("@/images/ico_com.png") no-repeat; background-position: -253px -139px;}
+.checkbox input[type="checkbox"]:checked + label::before{border-color:#2196f3; background: #fff;}
+.checkbox input[type="checkbox"]:disabled + label{color:#808487; cursor: default;}
+.checkbox input[type="checkbox"]:disabled + label::before {border-color:#d9d9d9; background-color: #ffff;  cursor: not-allowed;}
+
+/* drag */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{border:0; background:none;}
