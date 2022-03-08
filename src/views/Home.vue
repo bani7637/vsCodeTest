@@ -29,22 +29,25 @@
             <div class="content-table-wrap">
                 <table class="table text-center table-hover" cellspacing="0" width="100%">
                     <colgroup>
-                        <col style="width: 10%">
-                        <col style="width: 50%">
+                        <col style="width: 20%">
+                        <col style="width: 20%">
+                        <col style="width: 20%">
                         <col style="width: 20%">
                         <col style="width: 20%">
                     </colgroup>
                     <tr>
-                        <td>순번</td>
-                        <td>제목</td>
-                        <td>글쓴이</td>
-                        <td>작성일자</td>
+                        <td>번호</td>
+                        <td>분류</td>
+                        <td>제공형태</td>
+                        <td>데이터명</td>
+                        <td>등록일자</td>
                     </tr>
-                    <tr v-for="x in data" :key="x.index" v-on:click="detail(x.index)">
-                        <td>{{x.index}}</td>
-                        <td>{{x.title}}</td>
+                    <tr v-for="(x, index) in data" :key="x.number" v-on:click="detail(index)">
+                        <td>{{x.number}}</td>
+                        <td>{{x.type1}}</td>
                         <td>{{x.id}}</td>
-                        <td>{{x.creDt}}</td>
+                        <td>{{x.title}}</td>
+                        <td>{{x.requestDate}}</td>
                     </tr>
                 </table>
             </div>
@@ -82,7 +85,7 @@ export default {
         //상세조회
         detail : function(index){
             this.$router.push({
-                name: 'detailBoard',
+                name: 'createBoard',
                 params: {index:index}
                 
             })
